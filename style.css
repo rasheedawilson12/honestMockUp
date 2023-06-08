@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+}
+.scrollbar {
+  background-color: #f4d6ca;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+.arrow {
+  height: 10px;
+  border: solid purple;
+}
+
+.scrollText {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  /* border: solid black; */
+  padding-top: 10px;
+}
+
+.icon,
+.logo,
+.login {
+  /* border: 0.2px solid black; */
+  width: 25%;
+  padding: 10pz;
+}
+
+.optionsContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.heartEmoji {
+  width: 14px;
+  padding-left: 3px;
+}
+
+.miniSelectors {
+  display: flex;
+}
+
+.selector {
+  padding-right: 8px;
+  font-size: 15px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.rowOne,
+.rowTwo {
+  margin: 0 auto;
+  display: flex;
+  width: 75%;
+}
+
+.imgOne,
+.imgTwo,
+.imgThree,
+.imgFour {
+  width: 100%;
+}
+
+.filterBox {
+  display: flex;
+  justify-content: space-evenly;
+  /* border: solid black; */
+  width: 20%;
+}
+
+.filterBy,
+.featured {
+  border: solid black;
+  width: 90%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.productRow {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.productImg {
+  width: 350px;
+  margin: 5px;
+}
